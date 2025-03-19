@@ -1,5 +1,5 @@
 class Student:
-
+# Declares the score of the student
     def __init__(self, name:str):
         self.name = name
         self.grades = []
@@ -15,6 +15,7 @@ class Student:
         return final_grade
 
 class Classroom:
+    # Declares Average grade of Classroom
     def __init__(self):
         self.students = []
 
